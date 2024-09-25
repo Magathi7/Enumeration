@@ -70,7 +70,7 @@ Perform common SRV Record Enumeration
 Top level domain expansion
 ## OUTPUT:
 
-![image](https://github.com/user-attachments/assets/faaee0d6-dbd7-4585-9e37-48a4abcc956d)
+![Screenshot (215)](https://github.com/user-attachments/assets/435f6fa7-87aa-43da-b34e-895640bfe028)
 
 ##dnsenum
 Dnsenum is a multithreaded perl script to enumerate DNS information of a domain and to discover non-contiguous ip blocks. The main purpose of Dnsenum is to gather as much information as possible about a domain. The program currently performs the following operations:
@@ -86,9 +86,9 @@ Perform reverse lookups on netranges (C class or/and whois netranges) (threaded)
 Write to domain_ips.txt file ip-blocks.
 This program is useful for pentesters, ethical hackers and forensics experts. It also can be used for security tests.
 
-![image](https://github.com/user-attachments/assets/bd1b044c-d49c-43dd-9160-27b3ecf5e4b7)
+![Screenshot (219)](https://github.com/user-attachments/assets/353a3cb6-504f-4c1b-a499-3fab28ab7fe9)
 
-![image](https://github.com/user-attachments/assets/6dce3f92-ab09-4631-bc4f-6a2f1bcc6c68)
+![Screenshot (220)](https://github.com/user-attachments/assets/a12958ab-aac2-48f3-a01c-9439968443af)
 
 
 ##smtp-user-enum
@@ -103,16 +103,9 @@ Telnet allows to connect to remote host based on the port no. For smtp port no i
 telnet <host address> 25 to connect
 and issue appropriate commands
   
- ##Output
-
-![image](https://github.com/user-attachments/assets/f7606209-f796-42b2-ae30-56b4e7c3b01b)
-
 ## nmap –script smtp-enum-users.nse <hostname>
 
 The smtp-enum-users.nse script attempts to enumerate the users on a SMTP server by issuing the VRFY, EXPN or RCPT TO commands. The goal of this script is to discover all the user accounts in the remote system.
-
-![image](https://github.com/user-attachments/assets/cbc0432d-429f-47bb-b0aa-416bb597a97d)
-
 
 ## RESULT:
 The Google hacking keywords and enumeration tools were identified and executed successfully
